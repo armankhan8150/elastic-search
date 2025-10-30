@@ -81,4 +81,4 @@ The log includes connection status, number of new articles downloaded, and any e
 --- 
 
 ## 🪪 License
-You can freely use and modify this project under the MIT License.
+You can freely use and modify this script under the MIT License.
