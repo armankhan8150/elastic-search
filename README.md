@@ -34,4 +34,22 @@ Dependencies are listed in `requirements.txt`:
 ```txt
 elasticsearch>=8.0.0,<9.0.0
 python-dotenv>=1.0.1
+```
+Install them using:
+```txt
+pip install -r requirements.txt
+```
+---
 
+## 🧩 Environment Variables
+The script reads connection details from environment variables for security.
+You can set them in your terminal session or create a .env file in the same directory:
+
+```txt
+ES_HOST=https://your-elasticsearch-url
+ES_USERNAME=elastic
+ES_PASSWORD=yourpassword
+```
+---
+
+## 🚀 Usage
