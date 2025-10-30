@@ -53,3 +53,32 @@ ES_PASSWORD=yourpassword
 ---
 
 ## 🚀 Usage
+Run the script manually:
+```txt
+python auto_downloader.py
+```
+or make it executable:
+```txt
+chmod +x auto_downloader.py
+./auto_downloader.py
+```
+It will:
+- Start the download loop
+- Wait 60 minutes between checks (you can change this in the script)
+- Save files like:
+```text
+downloaded_articles/articles_20251030_120000.json
+```
+---
+
+## 🧾 Log File
+All activity is logged in:
+```txt
+es_downloader.log
+```
+The log includes connection status, number of new articles downloaded, and any errors encountered.
+
+--- 
+
+## 🪪 License
+You can freely use and modify this project under the MIT License.
